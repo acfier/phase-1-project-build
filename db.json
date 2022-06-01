@@ -1,0 +1,250 @@
+{
+  "Stadiums": [
+    {
+      "id": 1,
+      "team": "New England Patriots",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough",
+      "state": "Massachusetts",
+      "vist": "yes"
+    },
+    {
+      "id": 2,
+      "team": "New York Jets, New York Giants",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford",
+      "state": "New Jersey",
+      "vist": "yes"
+    },
+    {
+      "id": 3,
+      "team": "Buffalo Bills",
+      "stadium": "Highmark Stadium",
+      "city": "Orchard Park",
+      "state": "New York",
+      "vist": "yes"
+    },
+    {
+      "id": 4,
+      "team": "Miami Dolphins",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami",
+      "state": "Florida",
+      "vist": "yes"
+    },
+    {
+      "team": "Cleveland Browns",
+      "stadium": "FirstEnergy Stadium",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "visit": "no",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "team": "Pittsburgh Steelers",
+      "stadium": "Heinz Field",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "vist": "no"
+    },
+    {
+      "id": 7,
+      "team": "Baltimore Ravens",
+      "stadium": "M & T Banks Stadium",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "vist": "yes"
+    },
+    {
+      "id": 8,
+      "team": "Cincinnati Bengals",
+      "stadium": "Paul Brown Stadium",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "vist": "no"
+    },
+    {
+      "id": 9,
+      "team": "Indianapolis Colts",
+      "stadium": "Lucas Oil Stadium",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "vist": "no"
+    },
+    {
+      "id": 10,
+      "team": "Tennessee Titans",
+      "stadium": "Nissan Stadium",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vist": "yes"
+    },
+    {
+      "id": 11,
+      "team": "Houston Texans",
+      "stadium": "NRG Stadium",
+      "city": "Houston",
+      "state": "Texas",
+      "vist": "no"
+    },
+    {
+      "id": 12,
+      "team": "Jacksonville Jaguars",
+      "stadium": "TIAA Bank Field",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "vist": "no"
+    },
+    {
+      "id": 13,
+      "team": "Las Vegas Raiders",
+      "stadium": "Allegiant Stadium",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "vist": "yes"
+    },
+    {
+      "id": 14,
+      "team": "Kansas City Chiefs",
+      "stadium": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "vist": "no"
+    },
+    {
+      "id": 15,
+      "team": "Denver Broncos",
+      "stadium": "Empower Field at Mile High Stadium",
+      "city": "Denver",
+      "state": "Colorado",
+      "vist": "no"
+    },
+    {
+      "id": 16,
+      "team": "Los Angeles Chargers, Los Angeles Rams",
+      "stadium": "SoFi Stadium",
+      "city": "Ingelwood",
+      "state": "California",
+      "vist": "yes"
+    },
+    {
+      "id": 17,
+      "team": "Dallas Cowboys",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington",
+      "state": "Texas",
+      "vist": "yes"
+    },
+    {
+      "id": 18,
+      "team": "Philadelphia Eagles",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vist": "yes"
+    },
+    {
+      "id": 19,
+      "team": "Washington Commanders",
+      "stadium": "FedEx Field",
+      "city": "Landover",
+      "state": "Maryland",
+      "vist": "yes"
+    },
+    {
+      "id": 20,
+      "team": "Chicago Bears",
+      "stadium": "Soldier Field",
+      "city": "Chicago",
+      "state": "Ilinois",
+      "vist": "yes"
+    },
+    {
+      "id": 21,
+      "team": "Detroit Lions",
+      "stadium": "Ford Field",
+      "city": "Detroit",
+      "state": "Michigan",
+      "vist": "yes"
+    },
+    {
+      "id": 22,
+      "team": "Green Bay Packers",
+      "stadium": "Lambeau Field",
+      "city": "Green Bay",
+      "state": "Wisconsin",
+      "vist": "yes"
+    },
+    {
+      "id": 23,
+      "team": "Minnesota Vikings",
+      "stadium": "U.S. Bank Stadium",
+      "city": "Minneapolis",
+      "state": "Minesota",
+      "vist": "yes"
+    },
+    {
+      "id": 24,
+      "team": "Atlanta Falcons",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vist": "yes"
+    },
+    {
+      "id": 25,
+      "team": "Tampa Bay Buccaneers",
+      "stadium": "Raymond James Stadium",
+      "city": "Tampa",
+      "state": "Florida",
+      "vist": "yes"
+    },
+    {
+      "id": 26,
+      "team": "New Orleans Saints",
+      "stadium": "Caesars Superdome",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "vist": "yes"
+    },
+    {
+      "id": 27,
+      "team": "Carolina Panthers",
+      "stadium": "Bank of America Stadium",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "vist": "yes"
+    },
+    {
+      "id": 28,
+      "team": "San Francisco 49ers",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara",
+      "state": "California",
+      "vist": "yes"
+    },
+    {
+      "id": 29,
+      "team": "Seattle Seahawks",
+      "stadium": "Lumen Field",
+      "city": "Seattle",
+      "state": "Washington",
+      "vist": "yes"
+    },
+    {
+      "id": 30,
+      "team": "Arizona Cardinals",
+      "stadium": "State Farm Stadium",
+      "city": "Glendale",
+      "state": "Arizona",
+      "vist": "yes"
+    },
+    {
+      "id": 31
+    },
+    {
+      "id": 32
+    }
+  ]
+}
