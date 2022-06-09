@@ -1,5 +1,3 @@
-
-
 // ** GLobal Variables **//
 const baseUrl = 'http://localhost:3000'
 let stadiums = []; 
@@ -291,22 +289,6 @@ const renderWishListOfStadiums = () => {
     }) 
 }
 
-const deleteWishlistData = () => {
- 
-    fetch(baseUrl + '/wishlist', wishlist.id, {
-        method: 'DELETE',
-        headers: {
-            'Accept': 'application/json', 
-            'Content-Type': 'application/json'
-        }
-    })
-    .then(resp => resp.json ())
-    .then(data => {
-
-    });
-}
-
-
 // ** Start up  **//
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -317,5 +299,4 @@ document.addEventListener('DOMContentLoaded', () => {
     attachStadiumWishListLinkEvent(); 
     attachStadiumsLinkEvent(); 
     hideWishlistNumber(); 
-    deleteWishlistData(); 
 })
