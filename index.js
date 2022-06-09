@@ -35,9 +35,9 @@ const attachStadiumsLinkEvent = () => {
 
     // ** Misc **//
 
-    const resetMainDiv = () => {
-        mainDiv().innerHTML = '';
-    }
+const resetMainDiv = () => {
+    mainDiv().innerHTML = '';
+}
 
 const hideWishlistNumber = () => {
     wishlistAdd().style.display = 'none'; 
@@ -95,8 +95,6 @@ const loadHome = event => {
     mainDiv().appendChild(h1);
     mainDiv().appendChild(p);
     mainDiv().appendChild(img); 
-    
-    
 }
 
 const loadStadiumWishList = () => {
