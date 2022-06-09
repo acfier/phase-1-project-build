@@ -242,29 +242,6 @@
     }
   ],
   "Wishlist": [
-    {
-      "id": 1,
-      "team": "New England Patriots",
-      "field": "Gillette Stadium",
-      "city": "Foxborough",
-      "state": "Massachusetts",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/gilletteblake-1.jpg"
-    },
-    {
-      "id": 2,
-      "team": "New York Jets, New York Giants",
-      "field": "MetLife Stadium",
-      "city": "East Rutherford",
-      "state": "New Jersey",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg"
-    },
-    {
-      "id": 6,
-      "team": "Pittsburgh Steelers",
-      "field": "Heinz Field",
-      "city": "Pittsburgh",
-      "state": "Pennsylvania",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/heinzblake.jpg"
-    }
+
   ]
 }
