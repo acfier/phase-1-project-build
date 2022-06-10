@@ -6,7 +6,8 @@
       "field": "Gillette Stadium",
       "city": "Foxborough",
       "state": "Massachusetts",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/gilletteblake-1.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/gilletteblake-1.jpg",
+      "wishlist": 0
     },
     {
       "id": 2,
@@ -242,6 +243,21 @@
     }
   ],
   "Wishlist": [
-
+    {
+      "id": 2,
+      "team": "New York Jets, New York Giants",
+      "field": "MetLife Stadium",
+      "city": "East Rutherford",
+      "state": "New Jersey",
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg"
+    },
+    {
+      "id": 4,
+      "team": "Miami Dolphins",
+      "field": "Hard Rock Stadium",
+      "city": "Miami",
+      "state": "Florida",
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/hardrockblake.jpg"
+    }
   ]
 }
