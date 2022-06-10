@@ -15,6 +15,7 @@ This project is designed for people who want to tavel and watch football.  As a 
 ## How to Use
 - Upon loading the home page, use the navigation bar at the top to view the NFL stadiums and locations of these stadiums
 - While viewing the stadiums list, use the application to select a visit date if you've attended a game at the selected stadium or add the stadium to your wishlist.
+- While viewing stadiums list, submit comment on experience of any stadium you have visited. 
 - Navigate to the wishlist page to view the stadiums you'd still like to visit
 
 ## Credits
