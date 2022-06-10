@@ -67,18 +67,17 @@ const postStadiumToWishList = (stadium) => {
     console.log(stadium)
 }
 
-const clearWishlist = () => {
+const clearWishlist = (stadium) => {
     fetch(baseUrl + '/wishlist' , {
         method: "DELETE", 
         headers: {
             'Accept': 'application/json', 
             'Content-Type': 'application/json' 
         },
-        body: JSON.stringify()
+        body: JSON.stringify(stadium)
     })
     .then(resp => resp.json())
     .then(data => {
-        console.log(data)
         wishlist.push(data)
     })
     console.log(data)
@@ -128,11 +127,10 @@ const loadStadiumWishList = () => {
         const h1 = document.createElement('h1');
         h1.innerText = 'Stadium Wishlist' 
         const clearButton = document.createElement('input'); 
-        clearButton.className = 'waves-effect waves-light btn'; 
-        clearButton.setAttribute('type', 'submit'); 
+        clearButton.className = 'waves-effect waves-light btn material-icons left';  
+        clearButton.setAttribute('type', 'click'); 
         clearButton.setAttribute('value', 'clear wishlist'); 
-        
-        clearButton.addEventListener('click', clearWishlist()); 
+        // clearButton.addEventListener('click', clearWishlist(data)); 
 
         mainDiv().appendChild(h1); 
         mainDiv().appendChild(clearButton); 
@@ -155,7 +153,8 @@ const renderWishlistStadiums = () => {
 
 const renderWishlistStadium = (stadium) => {
     const col = document.createElement('div');
-    col.className = 'col s3 m5 l6'; 
+    col.className = 'col s3 m4 l6'; 
+    col.style.marginTop = '50px'; 
     col.appendChild(createWishCard(stadium)); 
     
     return col; 

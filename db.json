@@ -289,6 +289,24 @@
       "state": "New Jersey",
       "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg",
       "wishlist": 0
+    },
+    {
+      "id": 4,
+      "team": "Miami Dolphins",
+      "field": "Hard Rock Stadium",
+      "city": "Miami",
+      "state": "Florida",
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/hardrockblake.jpg",
+      "wishlist": 0
+    },
+    {
+      "id": 3,
+      "team": "Buffalo Bills",
+      "field": "Highmark Stadium",
+      "city": "Orchard Park",
+      "state": "New York",
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/highmarkblake.jpg",
+      "wishlist": 0
     }
   ]
 }
