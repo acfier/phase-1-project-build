@@ -93,7 +93,7 @@ const loadHome = event => {
     caption.className = 'center-align'; 
 
     h1.innerText = "Are You Ready For Some Football?"
-    p.innerText = "Traveling and Football.  Does it get any better than that? Each stadium is in a unique city and state that offers a wide variety of opportunities for fun and excitement.  It has always been a dream of mine to visit each NFL team city and attend a game at each stadium.  For those who have similar aspirations, use this site to select the stadiums you've visited and the stadiums you still wish to visit."
+    p.innerText = "Traveling and Football.  Does it get any better than that? Each stadium is in a unique city and state that offers a wide variety of opportunities for fun and excitement.  It has always been a dream of mine to visit each NFL team city and attend a game at each stadium.  For those who have similar aspirations, use this site to select the stadiums you've visited and the stadiums you still wish to visit.  Use the navigation bar at the top of this page track the list of NFL stadiums visited and yet to be visited."
     img.src = "https://www.stadiumsofprofootball.com/wp-content/uploads/2017/04/allegiantbw.jpg"
     caption.innerText = 'Allegiant Stadium:  Home of the 2023 Superbowl'
 
