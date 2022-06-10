@@ -216,7 +216,6 @@ const createCard = (stadium) => {
     divDatePicker.addEventListener('click', visitDate); 
     form.addEventListener('submit', (e) => {
         e.preventDefault(); 
-        console.log('form test')
     }); 
  
     rateDiv.appendChild(rateInput);
