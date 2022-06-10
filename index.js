@@ -24,7 +24,7 @@ const attachStadiumWishListLinkEvent = () => {
     stadiumWishListLink().addEventListener('click', (e) => 
     {
         e.preventDefault(); 
-        renderWishListOfStadiums();
+        // renderWishListOfStadiums();
         loadStadiumWishList(); 
     }); 
 }
@@ -51,18 +51,20 @@ function addStadium(stadium) {
 }
 
 const postStadiumToWishList = (stadium) => {
-    fetch(baseUrl + '/wishlist', {
-        method: "POST", 
+    fetch(`baseUrl ${stadium.id}` , {
+        method: "PATCH", 
         headers: {
             'Accept': 'application/json', 
             'Content-Type': 'application/json' 
         },
-        body: JSON.stringify(stadium)
+        // body: JSON.stringify(stadium)
     })
     .then(resp => resp.json())
     .then(data => {
-        stadiums.push(data)
+        console.log(data)
+        // stadiums.push(data)
     })
+    console.log(stadium)
 }
 
 const visitDate = (event) => {
@@ -282,20 +284,20 @@ const loadStadiumInfo = () => {
     })
 }
 
-const renderWishListOfStadiums = () => {
-    fetch(baseUrl + '/wishlist')
-    .then(resp => resp.json())
-    .then( data => {
-        wishlist = data;
-    }) 
-}
+// const renderWishListOfStadiums = () => {
+//     fetch(baseUrl + '/wishlist')
+//     .then(resp => resp.json())
+//     .then( data => {
+//         wishlist = data;
+//     }) 
+// }
 
 // ** Start up  **//
 
 document.addEventListener('DOMContentLoaded', () => {
     loadHome(); 
     loadStadiumInfo(); 
-    renderWishListOfStadiums(); 
+    // renderWishListOfStadiums(); 
     attachHomeLinkEvent(); 
     attachStadiumWishListLinkEvent(); 
     attachStadiumsLinkEvent(); 

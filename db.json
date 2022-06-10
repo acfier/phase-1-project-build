@@ -15,7 +15,8 @@
       "field": "MetLife Stadium",
       "city": "East Rutherford",
       "state": "New Jersey",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 3,
@@ -23,7 +24,8 @@
       "field": "Highmark Stadium",
       "city": "Orchard Park",
       "state": "New York",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/highmarkblake.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/highmarkblake.jpg",
+      "wishlist": 0
     },
     {
       "id": 4,
@@ -31,7 +33,8 @@
       "field": "Hard Rock Stadium",
       "city": "Miami",
       "state": "Florida",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/hardrockblake.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/hardrockblake.jpg",
+      "wishlist": 0
     },
     {
       "team": "Cleveland Browns",
@@ -39,7 +42,8 @@
       "city": "Cleveland",
       "state": "Ohio",
       "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/first18950.jpg",
-      "id": 5
+      "id": 5,
+      "wishlist": 0
     },
     {
       "id": 6,
@@ -47,7 +51,8 @@
       "field": "Heinz Field",
       "city": "Pittsburgh",
       "state": "Pennsylvania",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/heinzblake.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/heinzblake.jpg",
+      "wishlist": 0
     },
     {
       "id": 7,
@@ -55,7 +60,8 @@
       "field": "M & T Banks Stadium",
       "city": "Baltimore",
       "state": "Maryland",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/mtbank16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/mtbank16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 8,
@@ -63,7 +69,8 @@
       "field": "Paul Brown Stadium",
       "city": "Cincinnati",
       "state": "Ohio",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/paul21952.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/paul21952.jpg",
+      "wishlist": 0
     },
     {
       "id": 9,
@@ -71,7 +78,8 @@
       "field": "Lucas Oil Stadium",
       "city": "Indianapolis",
       "state": "Indiana",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/lucas16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/lucas16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 10,
@@ -79,7 +87,8 @@
       "field": "Nissan Stadium",
       "city": "Nashville",
       "state": "Tennessee",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/nissan16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/nissan16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 11,
@@ -87,7 +96,8 @@
       "field": "NRG Stadium",
       "city": "Houston",
       "state": "Texas",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/nrg16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/nrg16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 12,
@@ -95,7 +105,8 @@
       "field": "TIAA Bank Field",
       "city": "Jacksonville",
       "state": "Florida",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/tiaabank21950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/tiaabank21950.jpg",
+      "wishlist": 0
     },
     {
       "id": 13,
@@ -103,7 +114,8 @@
       "field": "Allegiant Stadium",
       "city": "Las Vegas",
       "state": "Nevada",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2017/04/allegiant21950_main-1.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2017/04/allegiant21950_main-1.jpg",
+      "wishlist": 0
     },
     {
       "id": 14,
@@ -111,7 +123,8 @@
       "field": "Arrowhead Stadium",
       "city": "Kansas City",
       "state": "Missouri",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/arrowblake.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/arrowblake.jpg",
+      "wishlist": 0
     },
     {
       "id": 15,
@@ -119,7 +132,8 @@
       "field": "Empower Field at Mile High Stadium",
       "city": "Denver",
       "state": "Colorado",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/milehigh21951.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/milehigh21951.jpg",
+      "wishlist": 0
     },
     {
       "id": 16,
@@ -127,7 +141,8 @@
       "field": "SoFi Stadium",
       "city": "Ingelwood",
       "state": "California",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/08/sofi21952main.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/08/sofi21952main.jpg",
+      "wishlist": 0
     },
     {
       "id": 17,
@@ -135,7 +150,8 @@
       "field": "AT&T Stadium",
       "city": "Arlington",
       "state": "Texas",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/att16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/att16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 18,
@@ -143,7 +159,8 @@
       "field": "Lincoln Financial Field",
       "city": "Philadelphia",
       "state": "Pennsylvania",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/linc16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/linc16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 19,
@@ -151,7 +168,8 @@
       "field": "FedEx Field",
       "city": "Landover",
       "state": "Maryland",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/fedex16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/fedex16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 20,
@@ -159,7 +177,8 @@
       "field": "Soldier Field",
       "city": "Chicago",
       "state": "Ilinois",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/soldier21950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/soldier21950.jpg",
+      "wishlist": 0
     },
     {
       "id": 21,
@@ -167,7 +186,8 @@
       "field": "Ford Field",
       "city": "Detroit",
       "state": "Michigan",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/ford21950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/ford21950.jpg",
+      "wishlist": 0
     },
     {
       "id": 22,
@@ -175,7 +195,8 @@
       "field": "Lambeau Field",
       "city": "Green Bay",
       "state": "Wisconsin",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/lambeau.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/lambeau.jpg",
+      "wishlist": 0
     },
     {
       "id": 23,
@@ -183,7 +204,8 @@
       "field": "U.S. Bank Stadium",
       "city": "Minneapolis",
       "state": "Minesota",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/usbank16957.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/usbank16957.jpg",
+      "wishlist": 0
     },
     {
       "id": 24,
@@ -191,7 +213,8 @@
       "field": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "state": "Georgia",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/08/mbs21950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/08/mbs21950.jpg",
+      "wishlist": 0
     },
     {
       "id": 25,
@@ -199,7 +222,8 @@
       "field": "Raymond James Stadium",
       "city": "Tampa",
       "state": "Florida",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/raymond16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/raymond16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 26,
@@ -207,7 +231,8 @@
       "field": "Caesars Superdome",
       "city": "New Orleans",
       "state": "Louisiana",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/super2012950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/super2012950.jpg",
+      "wishlist": 0
     },
     {
       "id": 27,
@@ -215,7 +240,8 @@
       "field": "Bank of America Stadium",
       "city": "Charlotte",
       "state": "North Carolina",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/bank16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/bank16_top.jpg",
+      "wishlist": 0
     },
     {
       "id": 28,
@@ -223,7 +249,8 @@
       "field": "Levi's Stadium",
       "city": "Santa Clara",
       "state": "California",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/levis16_top3.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/levis16_top3.jpg",
+      "wishlist": 0
     },
     {
       "id": 29,
@@ -231,7 +258,8 @@
       "field": "Lumen Field",
       "city": "Seattle",
       "state": "Washington",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/century18950.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/century18950.jpg",
+      "wishlist": 0
     },
     {
       "id": 30,
@@ -239,25 +267,11 @@
       "field": "State Farm Stadium",
       "city": "Glendale",
       "state": "Arizona",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/up16_top.jpg"
+      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/up16_top.jpg",
+      "wishlist": 0
     }
   ],
   "Wishlist": [
-    {
-      "id": 2,
-      "team": "New York Jets, New York Giants",
-      "field": "MetLife Stadium",
-      "city": "East Rutherford",
-      "state": "New Jersey",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg"
-    },
-    {
-      "id": 4,
-      "team": "Miami Dolphins",
-      "field": "Hard Rock Stadium",
-      "city": "Miami",
-      "state": "Florida",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/hardrockblake.jpg"
-    }
+   
   ]
 }
