@@ -67,6 +67,25 @@ const postStadiumToWishList = (stadium) => {
     console.log(stadium)
 }
 
+const clearWishlist = () => {
+    fetch(baseUrl + '/wishlist' , {
+        method: "DELETE", 
+        headers: {
+            'Accept': 'application/json', 
+            'Content-Type': 'application/json' 
+        },
+        body: JSON.stringify()
+    })
+    .then(resp => resp.json())
+    .then(data => {
+        console.log(data)
+        wishlist.push(data)
+    })
+    console.log(data)
+}
+
+
+
 const visitDate = (event) => {
     event.preventDefault(); 
     var elem = document.querySelectorAll('.datepicker');
@@ -108,8 +127,16 @@ const loadStadiumWishList = () => {
         resetMainDiv(); 
         const h1 = document.createElement('h1');
         h1.innerText = 'Stadium Wishlist' 
+        const clearButton = document.createElement('input'); 
+        clearButton.className = 'waves-effect waves-light btn'; 
+        clearButton.setAttribute('type', 'submit'); 
+        clearButton.setAttribute('value', 'clear wishlist'); 
+        
+        clearButton.addEventListener('click', clearWishlist()); 
 
         mainDiv().appendChild(h1); 
+        mainDiv().appendChild(clearButton); 
+
         renderWishlistStadiums(); 
         hideWishlistNumber(); 
        
@@ -219,7 +246,9 @@ const createCard = (stadium) => {
         e.preventDefault();
         addStadium(stadium)
     }); 
+
     divDatePicker.addEventListener('click', visitDate); 
+
     form.addEventListener('submit', (e) => {
         e.preventDefault(); 
     }); 
@@ -301,7 +330,7 @@ const renderWishListOfStadiums = () => {
 document.addEventListener('DOMContentLoaded', () => {
     loadHome(); 
     loadStadiumInfo(); 
-    // renderWishListOfStadiums(); 
+    renderWishListOfStadiums(); 
     attachHomeLinkEvent(); 
     attachStadiumWishListLinkEvent(); 
     attachStadiumsLinkEvent(); 
