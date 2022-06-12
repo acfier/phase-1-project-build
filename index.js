@@ -61,27 +61,26 @@ const postStadiumToWishList = (stadium) => {
     })
     .then(resp => resp.json())
     .then(data => {
-        console.log(data)
         stadiums.push(data)
     })
-    console.log(stadium)
+
 }
 
-const clearWishlist = (stadium) => {
-    fetch(baseUrl + '/wishlist' , {
-        method: "DELETE", 
-        headers: {
-            'Accept': 'application/json', 
-            'Content-Type': 'application/json' 
-        },
-        body: JSON.stringify(stadium)
-    })
-    .then(resp => resp.json())
-    .then(data => {
-        wishlist.push(data)
-    })
-    console.log(data)
-}
+// const clearWishlist = (stadium) => {
+//     fetch(baseUrl + '/wishlist' , {
+//         method: "DELETE", 
+//         headers: {
+//             'Accept': 'application/json', 
+//             'Content-Type': 'application/json' 
+//         },
+//         body: JSON.stringify(stadium)
+//     })
+//     .then(resp => resp.json())
+//     .then(data => {
+//         wishlist.push(data)
+//     })
+//     console.log(data)
+// }
 
 
 
@@ -126,14 +125,14 @@ const loadStadiumWishList = () => {
         resetMainDiv(); 
         const h1 = document.createElement('h1');
         h1.innerText = 'Stadium Wishlist' 
-        const clearButton = document.createElement('input'); 
-        clearButton.className = 'waves-effect waves-light btn material-icons left';  
-        clearButton.setAttribute('type', 'click'); 
-        clearButton.setAttribute('value', 'clear wishlist'); 
+        // const clearButton = document.createElement('input'); 
+        // clearButton.className = 'waves-effect waves-light btn material-icons left';  
+        // clearButton.setAttribute('type', 'click'); 
+        // clearButton.setAttribute('value', 'clear wishlist'); 
         // clearButton.addEventListener('click', clearWishlist(data)); 
 
         mainDiv().appendChild(h1); 
-        mainDiv().appendChild(clearButton); 
+        // mainDiv().appendChild(clearButton); 
 
         renderWishlistStadiums(); 
         hideWishlistNumber(); 
