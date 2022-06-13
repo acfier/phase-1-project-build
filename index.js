@@ -66,12 +66,6 @@ const postStadiumToWishList = (stadium) => {
     })
 }
 
-const deleteWishlist = (e) => {
-    fetch(`http://localhost:3000/wishlist`, {
-        method: 'Delete'
-    })
-}
-
 const visitDate = (event) => {
     event.preventDefault(); 
     var elem = document.querySelectorAll('.datepicker');
