@@ -64,7 +64,12 @@ const postStadiumToWishList = (stadium) => {
     .then(data => {
         stadiums.push(data)
     })
-    console.log(stadium)
+}
+
+const deleteWishlist = (e) => {
+    fetch(`http://localhost:3000/wishlist`, {
+        method: 'Delete'
+    })
 }
 
 const visitDate = (event) => {

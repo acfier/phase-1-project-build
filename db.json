@@ -272,23 +272,6 @@
     }
   ],
   "Wishlist": [
-    {
-      "id": 1,
-      "team": "New England Patriots",
-      "field": "Gillette Stadium",
-      "city": "Foxborough",
-      "state": "Massachusetts",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/gilletteblake-1.jpg",
-      "wishlist": 0
-    },
-    {
-      "id": 2,
-      "team": "New York Jets, New York Giants",
-      "field": "MetLife Stadium",
-      "city": "East Rutherford",
-      "state": "New Jersey",
-      "imgUrl": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife16_top.jpg",
-      "wishlist": 0
-    }
+   
   ]
 }
