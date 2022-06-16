@@ -15,7 +15,7 @@ This project is designed for people who want to tavel and watch football.  As a 
 ## How to Use
 - First you'll need to fork and clone the repository:
 - From your terminal directory you will have to start up the backend: 
-    - run json.server --watch db.json --port 3001
+    - run json.server --watch db.json
 
 ## Using the application 
 - Upon loading the home page, use the navigation bar at the top to view the NFL stadiums and locations of these stadiums
