@@ -60,10 +60,11 @@ const postStadiumToWishList = (stadium) => {
         },
         body: JSON.stringify(stadium)
     })
-    .then(resp => resp.json())
-    .then(data => {
-        stadiums.push(data)
-    })
+
+    // .then(resp => resp.json())
+    // .then(data => {
+    //     stadiums.push(data)
+    // }) 
 }
 
 const visitDate = (event) => {
@@ -221,7 +222,9 @@ const createCard = (stadium) => {
         addStadium(stadium)
     }); 
 
-    divDatePicker.addEventListener('click', visitDate); 
+    divDatePicker.addEventListener('click', visitDate, (e) =>{
+        e.preventDefault();
+    }); 
 
     form.addEventListener('submit', (e) => {
         e.preventDefault(); 

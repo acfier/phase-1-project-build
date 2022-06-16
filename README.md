@@ -13,6 +13,11 @@ This project is designed for people who want to tavel and watch football.  As a 
 - Can add stadiums to your wishlist of stadiums you'd still like to visit. 
 
 ## How to Use
+- First you'll need to fork and clone the repository:
+- From your terminal directory you will have to start up the backend: 
+    - run json.server --watch db.json --port 3001
+
+## Using the application 
 - Upon loading the home page, use the navigation bar at the top to view the NFL stadiums and locations of these stadiums
 - While viewing the stadiums list, use the application to select a visit date if you've attended a game at the selected stadium or add the stadium to your wishlist.
 - While viewing stadiums list, submit comment on experience of any stadium you have visited. 
