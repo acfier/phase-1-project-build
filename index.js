@@ -60,7 +60,6 @@ const postStadiumToWishList = (stadium) => {
         },
         body: JSON.stringify(stadium)
     })
-
     // .then(resp => resp.json())
     // .then(data => {
     //     stadiums.push(data)

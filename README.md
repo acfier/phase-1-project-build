@@ -13,7 +13,7 @@ This project is designed for people who want to tavel and watch football.  As a 
 - Can add stadiums to your wishlist of stadiums you'd still like to visit. 
 
 ## How to Use
-- First you'll need to fork and clone the repository:
+- First you'll need to fork and clone the repository: https://github.com/acfier/phase-1-project-build.git
 - From your terminal directory you will have to start up the backend: 
     - run json.server --watch db.json
 
